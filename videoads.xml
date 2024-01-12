@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<VAST version="3.0">
+  <Ad>
+    <InLine>
+      <AdSystem>Bard VAST Generator</AdSystem>
+      <AdTitle>Tu anuncio de video</AdTitle>
+      <Description>Este es tu anuncio de video.</Description>
+      <Survey>
+        <SurveyURL>https://www.example.com/survey</SurveyURL>
+      </Survey>
+      <Pricing>
+        <Model>CPM</Model>
+        <Currency>USD</Currency>
+        <Price>1.00</Price>
+      </Pricing>
+      <Creative>
+        <Linear>
+          <Duration>30</Duration>
+          <MediaFile>
+            <URI>https://u3y8v8u4.aucdn.net/library/461665/d9c5e65a493b21612bb28eba62d39a7722bf9535.mp4</URI>
+            <Delivery>progressive</Delivery>
+            <Type>video/mp4</Type>
+            <Bitrate>1000</Bitrate>
+          </MediaFile>
+          <VideoClicks>
+            <ClickThrough>
+              <URI>https://www.example.com/click</URI>
+            </ClickThrough>
+          </VideoClicks>
+          <TrackingEvents>
+            <TrackingEvent event="start" />
+            <TrackingEvent event="firstQuartile" />
+            <TrackingEvent event="midpoint" />
+            <TrackingEvent event="thirdQuartile" />
+            <TrackingEvent event="complete" />
+          </TrackingEvents>
+        </Linear>
+      </Creative>
+    </InLine>
+  </Ad>
+</VAST>
